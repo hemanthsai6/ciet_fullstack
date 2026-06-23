@@ -1,0 +1,39 @@
+h3{
+    color:darkgreen;
+}
+
+/* Universal selector */
+
+*{
+    color:brown;
+}
+
+/* Element selector */
+
+#tw{
+    color:blue;
+}
+
+#on{
+    color:yellow;
+}
+
+/* id selector */
+
+#one {
+    color:blue;
+}
+
+#two {
+    color:green;
+}
+
+#ss{
+    color:red;
+}
+
+/* class selector */
+
+.ai{
+    color: brown;
+}
