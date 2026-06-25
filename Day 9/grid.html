@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Grid</title>
+    <style>
+        div {
+            border: 2px orange dashed;
+        }
+
+        .parent {
+            width: 400px;
+            height: 400px;
+            display: grid;
+            grid-template-columns: 2fr 3fr 1fr;
+            grid-template-rows: 1fr 3fr 2fr;
+        }
+
+        .parent .child1,
+        .child8 {
+            color: white;
+            background-color: rgb(70, 221, 70);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+        }
+
+        .child8 {
+            grid-column: span 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="child1">Grid Item</div>
+        <div class="child2"></div>
+        <div class="child3"></div>
+        <div class="child4"></div>
+        <div class="child5"></div>
+        <div class="child6"></div>
+        <div class="child7"></div>
+        <div class="child8">Grid Items</div>
+    </div>
+</body>
+
+</html>
